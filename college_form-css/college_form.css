@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: auto;
+    font-family: 'poppins', sans-serif;
+    color: rgb(47, 46, 46);
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(227, 229, 233);
+}
+
+.navbar { 
+    background-color: #002333;
+    overflow: hidden;   
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navitem {
+    display: inline-block;
+    text-align: center;
+    color: rgb(214, 214, 215);
+    font-size: 1.15rem;
+    padding: 1.35rem;
+}
+
+.navitem:hover {   
+    color: rgb(31, 29, 29);
+    background-color: rgb(195, 213, 248);
+    transition: 500ms;
+    border-radius: 0.5rem;
+}
+
+.navitem.active {
+    background-color: #DEEFE7;
+    color: #002333;
+    transition: 500ms;
+}
+
+header .logo{
+    width: 18%;
+    float: left;
+}
+
+.banner{
+    width: 100%;
+    height: auto;   
+    left: 0;
+    
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    padding: 1rem;
+}
+
+.container h1{
+    font-size: 2rem;
+    padding: 2rem;
+    padding-left: 0;
+}
+
+.container h2{
+    text-align-last: center;
+    padding: 1rem;
+}
+
+.container p{
+    padding-top: 1.2rem;
+    padding-left: 0;
+}
+
+.card {
+    background-color: 	rgb(245,245,245);
+    border: 1px solid #CACACA;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.post{
+    padding: 5rem;
+    padding-left: 0;
+}
+
+.form-input {
+    width: 100%;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.title{
+    padding-top: 1rem;
+}
+
+.title h3{
+    padding-left: 0.25rem;
+    border-radius: 0.15rem;
+    background-color: rgb(232,232,232);
+}
+
+.column {
+    width: 100%;
+    margin-left: 0rem;
+    margin-right: 0.5rem;
+}
+
+.column-50{
+    display: flex;
+    column-gap: 0.5rem;
+}
+
+.column-text{
+    padding: 0rem 0.5rem 0.5rem 0.5rem;
+}
+
+div.column-text > label{
+    margin-right: 3.65rem;
+    cursor: pointer;
+}
+
+.input {
+	border-radius: 0.15rem;
+    cursor: pointer;
+    width: 50%;
+}
+
+.button{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1rem;
+}
+
+.button .reset {
+    margin: 0;
+    border-radius: 0.25rem;   
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.button .submit{
+    margin: 0;
+    border-radius: 0.25rem; 
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.button .reset:hover {
+    background-color: rgb(85, 84, 84);
+    color: #CACACA;
+    transition: 0.5s;
+}
+
+.button .submit:hover {
+    background-color: rgb(85, 84, 84);
+    color: #CACACA;
+    transition: 0.5s;
+}
+
+.bottom{
+    text-align-last: center;
+}
+
+.bottom .links{
+    padding: 0.25rem;
+    display: grid;
+}
+
+.copyright{
+    padding: 0.5rem;
+    text-align: center;
+    background-color: rgba(245, 245, 245);
+}
+
+@media screen and (max-width: 1200px) {
+    .navitem{
+        padding: 0.8rem;
+    }
+
+    div.column-text > label{
+        margin-right: 2rem;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .navitem{
+        font-size: 1rem;
+        padding: 0.4rem;
+    }
+
+    div.column-text > label{
+        margin-right: 0.55rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navitem{
+        font-size: 0.85rem;
+        padding: 0.1rem;
+    }
+
+    .container p{
+        font-size: 0.85rem;
+    }
+
+    div.column-text > label{
+        font-size: 0.7rem;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navitem{
+        font-size: 0.55rem;
+        padding: 0.1rem;
+    }
+
+    .container p{
+        font-size: 0.65rem;
+    }
+    
+    div.column-text > label{
+        font-size: 0.55rem;
+    }  
+}
+
+@media screen and (max-width: 400px) {
+    .navitem{
+        font-size: 0.3rem;
+        padding: 0.1rem;
+    }    
+}
