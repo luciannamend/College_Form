@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College of Technology</title>
+
+    <link rel="stylesheet" href="college_form-css/college_form.css"/>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+        <img class="logo" src="college_form-img/MCT-logo.jpg">
+        <a class="navitem" href="https://web.mit.edu/education/" target="_blank">Education</a>
+        <a class="navitem" href="https://web.mit.edu/research/" target="_blank">Research</a>
+        <a class="navitem" href="https://web.mit.edu/innovation/" target="_blank">Innovation</a>
+        <a class="navitem" href="https://web.mit.edu/admissions-aid/" target="_blank">Admissions</a>
+        <a class="navitem" href="https://news.mit.edu/" >News</a>
+        <a class="navitem" href="#"target="_blank" >Alumni</a>
+        <a class="navitem" href="mailto:luciannamend@gmail.com" target="_blank">Contact Us</a>        
+        </nav>     
+        <div>
+            <a href="https://web.mit.edu/" target="_blank"><img class="banner" src="college_form-img/college-banner.jpeg"></a>
+        </div>
+    </header>
+    
+    <section class="form">
+        <div class="container">
+            <h1>Massachusetts College of Technology</h1>            
+            <div class="card">
+                <h2> Continuing Education </h2>
+                <hr/>           
+                <p>Please, read each statement carefully and consider each one individually.
+                    Give only <b>one answer</b> for each question.</p>
+                <form method="post">
+                    <div class="row">
+                        <div class="column"><input type="text" class="form-input" placeholder="Course name"
+                            name="course-name" />
+                        </div>
+                        <div class="column"><input type="text" class="form-input" placeholder="Course code"
+                            name="course-code" />
+                        </div>
+                    </div> 
+                    <div class="row">
+                        <div class="column-50">
+                            <select name="semester" class="form-input">
+                                <option value="" selected disabled>Select your semester</option>
+                                <option value="fall">Fall</option>
+                                <option value="winter">Winter</option>
+                                <option value="spring/summer">Spring/Summer</option></select>
+                            <input type="text" class="form-input" placeholder="Year"
+                                name="Year" />
+                        </div>
+                        <div class="column">
+                            <div class="column"><input type="text" class="form-input" placeholder="Instructor name"
+                                name="instructor-name" />
+                            </div>
+                        </div>
+                    </div>     
+
+                    <div class="title">
+                        <h3>Instructor</h3>
+                        <p>How would you rate the instructor's:</p>
+                        <div class="row">
+                            <div class="column-text">
+                                <p>1.<b> Knowledge</b> of subject ?</p>
+                                <input type="radio" name="knowledge" id="radio-knowledge-excellent"/>&nbsp;<label class="radio-label" for="radio-knowledge-excellent">Excellent</label>
+                                <input type="radio" name="knowledge" id="radio-knowledge-good"/>&nbsp;<label class="radio-label" for="radio-knowledge-good">Good</label>
+                                <input type="radio" name="knowledge" id="radio-knowledge-fair"/>&nbsp;<label class="radio-label" for="radio-knowledge-fair">Fair</label>
+                                <input type="radio" name="knowledge" id="radio-knowledge-not-satisf"/>&nbsp;<label class="radio-label" for="radio-knowledge-not-satisf">Not Satisfactory</label>                       
+                            </div>
+                            <div class="column-text">
+                                <p>2.<b> Helpfulness</b> ?</p>
+                                <input type="radio" name="helpfulness" id="radio-helpfulness-excellent"/>&nbsp;<label for="radio-helpfulness-excellent">Excellent</label>
+                                <input type="radio" name="helpfulness" id="radio-helpfulness-good"/>&nbsp;<label for="radio-helpfulness-good">Good</label>
+                                <input type="radio" name="helpfulness" id="radio-helpfulness-fair"/>&nbsp;<label for="radio-helpfulness-fair">Fair</label>
+                                <input type="radio" name="helpfulness" id="radio-helpfulness-not-satisf"/>&nbsp;<label for="radio-helpfulness-not-satisf">Not Satisfactory</label>
+                            </div>
+                            <div class="column-text">
+                                <p>3.<b> Courtesy and respect</b> for all students ?</p>
+                                <input type="radio" name="court&respect" id="radio-court&respect-excellent"/>&nbsp;<label for="radio-court&respect-excellent">Excellent</label>
+                                <input type="radio" name="court&respect" id="radio-court&respect-good"/>&nbsp;<label for="radio-court&respect-good">Good</label>
+                                <input type="radio" name="court&respect" id="radio-court&respect-fair"/>&nbsp;<label for="radio-court&respect-fair">Fair</label>
+                                <input type="radio" name="court&respect" id="radio-court&respect-not-satisf"/>&nbsp;<label for="radio-court&respect-not-satisf">Not Satisfactory</label>
+                            </div>
+                            <div class="column-text">
+                                <p>4.<b> Communication</b> skills?</p>
+                                <input type="radio" name="communication" id="radio-communication-excellent"/>&nbsp;<label for="radio-communication-excellent">Excellent</label>
+                                <input type="radio" name="communication" id="radio-communication-good"/>&nbsp;<label for="radio-communication-good">Good</label>
+                                <input type="radio" name="communication" id="radio-communication-fair"/>&nbsp;<label for="radio-communication-fair">Fair</label>
+                                <input type="radio" name="communication" id="radio-communication-not-satisf"/>&nbsp;<label for="radio-communication-not-satisf">Not Satisfactory</label>
+                            </div>
+                            <div class="column-text">
+                                <p>5. Overall<b> performance</b> ?</p>
+                                <input type="radio" name="performance" id="radio-performance-excellent"/>&nbsp;<label for="radio-performance-excellent">Excellent</label>
+                                <input type="radio" name="performance" id="radio-performance-good"/>&nbsp;<label for="radio-performance-good">Good</label>
+                                <input type="radio" name="performance" id="radio-performance-fair"/>&nbsp;<label for="radio-performance-fair">Fair</label>
+                                <input type="radio" name="performance" id="radio-performance-not-satisf"/>&nbsp;<label for="radio-performance-not-satisf">Not Satisfactory</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="title">
+                        <h3>Course</h3>                       
+                        <div class="row">
+                            <div class="column-text">
+                                <p>6. How would you rate the <b>course materials</b> ?</p>
+                                <input type="radio" name="material" id="radio-material-excellent"/>&nbsp;<label for="radio-material-excellent">Excellent</label>
+                                <input type="radio" name="material" id="radio-material-good"/>&nbsp;<label for="radio-material-good">Good</label>
+                                <input type="radio" name="material" id="radio-material-fair"/>&nbsp;<label for="radio-material-fair">Fair</label>
+                                <input type="radio" name="material" id="radio-material-not-satisf"/>&nbsp;<label for="radio-material-not-satisf">Not Satisfactory</label>
+                            </div>
+                            <div class="column-text">
+                                <p>7. How much did this course meet your <b>expectations</b> ?</p>
+                                <input type="radio" name="expectations" id="radio-expectations-excellent"/>&nbsp;<label for="radio-expectations-excellent">Excellent</label>
+                                <input type="radio" name="expectations" id="radio-expectations-good"/>&nbsp;<label for="radio-expectations-good">Good</label>
+                                <input type="radio" name="expectations" id="radio-expectations-fair"/>&nbsp;<label for="radio-expectations-fair">Fair</label>
+                                <input type="radio" name="expectations" id="radio-expectations-not-satisf"/>&nbsp;<label for="radio-expectations-not-satisf">Not Satisfactory</label>
+                            </div>
+                            <div class="column-text">
+                                <p>8. How would you rate this course <b>overall</b> ?</p>
+                                <input type="radio" name="rate-overall" id="radio-rate-overallt-excellent"/>&nbsp;<label for="radio-rate-overall-excellent">Excellent</label>
+                                <input type="radio" name="rate-overall" id="radio-rate-overall-good"/>&nbsp;<label for="radio-rate-overall-good">Good</label>
+                                <input type="radio" name="rate-overall" id="radio-rate-overall-fair"/>&nbsp;<label for="radio-rate-overall-fair">Fair</label>
+                                <input type="radio" name="rate-overall" id="radio-rate-overall-not-satisf"/>&nbsp;<label for="radio-rate-overall-not-satisf">Not Satisfactory</label>
+                            </div>                            
+                        </div>
+                    </div>
+                    <div class="title">
+                        <h3>General Information</h3>                       
+                        <div class="row">
+                            <div class="column-text">
+                                <p>9. Was the <b>course outline</b> reviewed/explained at the beginning of the course?</p>
+                                <input type="radio" name="beginning-course-review" id="radio-beginning-course-review-yes"/>&nbsp;<label for="radio-beginning-course-review-yes">Yes</label>
+                                <input type="radio" name="beginning-course-review" id="radio-beginning-course-review-no"/>&nbsp;<label for="radio-beginning-course-review-no">No</label>
+                                <input type="radio" name="beginning-course-review" id="radio-beginning-course-review-not-sure"/>&nbsp;<label for="radio-beginning-course-review-not-sure">Not Sure</label>
+                            </div>
+                            <div class="column-text">
+                                <p>10. Would you <b>recommend</b> this course to a friend with the same interests ?</p>
+                                <input type="radio" name="recommend" id="radio-recommend-yes"/>&nbsp;<label for="radio-recommend-yes">Yes</label>
+                                <input type="radio" name="recommend" id="radio-recommend-no"/>&nbsp;<label for="radio-recommend-no">No</label>
+                                <input type="radio" name="recommend" id="radio-recommend-not-sure"/>&nbsp;<label for="radio-recommend-not-sure">Not Sure</label>
+                            </div>                                                     
+                        </div>
+                    </div>                    
+                    <div class="title">
+                        <h3>Any Other Comment</h3>                      
+                        <div class="row">                           
+                            <div class="column-text">                                 
+                                <p>11. What is the <b>best thing</b> about this course ?</p>                               
+                                <div class="comments">
+                                    <textarea type="text" class="input" placeholder="Type your comment here"></textarea>                       
+                                </div>
+                            </div>
+                            <div class="column-text">                                 
+                                <p>12. How could we  <b>improve</b> this course ?</p>                               
+                                <div class="comments">
+                                    <textarea type="text" class="input" placeholder="Type your comment here"></textarea>                       
+                                </div>
+                            </div>
+                            <div class="column-text">                                 
+                                <p>13. Other: </p>                               
+                                <div class="comments">
+                                    <textarea type="text" class="input" placeholder="Type your comment here"></textarea>                                                      
+                                </div>
+                            </div>
+                        </div>                       
+                    </div>
+                    <div class="button">
+                        <button class="reset">Reset</button>
+                        <button class="submit">Submit</button>                       
+                    </div>
+                    <div class="bottom"><i>                       
+                        <p>Thank you! We pay attetion to your feedback!</p>
+                        <div class="links">
+                            <a class="website" href="https://web.mit.edu/" target="_blank"><b>MCT website</b></a>
+                            <a class="email" href="mailto:luciannamend@gmail.com" target="_blank"><b>E-mail</b></a> 
+                        </div>    
+                    </i></div>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <footer>
+            <div class="copyright"> 
+                <h5>Copyright by Lucianna. All Rights Reserved.<br>
+                    Software Engineering Technology<br>
+                </h5>
+            </div>
+        </footer>
+    </section>
+      
+</body>
+</html>
